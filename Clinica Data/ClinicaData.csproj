@@ -8,9 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Configuracion\" />
-    <Folder Include="IRepositorio\" />
     <Folder Include="Repositorio\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Clinica Entidades\ClinicaEntidades.csproj" />
   </ItemGroup>
 
 </Project>

@@ -9,6 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema Clinica", "Sistema 
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicaData", "Clinica Data\ClinicaData.csproj", "{9B6B6E1D-9DE6-4996-94F4-A2CA4D061F5F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C4F28060-3325-4178-9B91-3044EE7A2C54} = {C4F28060-3325-4178-9B91-3044EE7A2C54}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicaEntidades", "Clinica Entidades\ClinicaEntidades.csproj", "{C4F28060-3325-4178-9B91-3044EE7A2C54}"
 EndProject
