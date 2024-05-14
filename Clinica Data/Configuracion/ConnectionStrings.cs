@@ -10,4 +10,4 @@ namespace ClinicaData.Configuracion
     {
         public string CadenaSQL { get; set; } = null!;
     }
-}
+}  
